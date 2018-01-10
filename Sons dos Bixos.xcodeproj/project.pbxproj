@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD9B3B9C200561780088659F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD9B3B8D200561780088659F /* Info.plist */; };
+		AD9B3B9D200561780088659F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9B3B8F200561780088659F /* Assets.xcassets */; };
+		AD9B3B9E200561780088659F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9B3B95200561780088659F /* AppDelegate.m */; };
+		AD9B3B9F200561780088659F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9B3B96200561780088659F /* main.m */; };
+		AD9B3BA0200561780088659F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9B3B98200561780088659F /* LaunchScreen.storyboard */; };
+		AD9B3BA1200561780088659F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9B3B9A200561780088659F /* Main.storyboard */; };
+		AD9B3BAA200562BE0088659F /* cao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD9B3BA3200562BE0088659F /* cao.mp3 */; };
+		AD9B3BAB200562BE0088659F /* gato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD9B3BA4200562BE0088659F /* gato.mp3 */; };
+		AD9B3BAC200562BE0088659F /* leao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD9B3BA5200562BE0088659F /* leao.mp3 */; };
+		AD9B3BAD200562BE0088659F /* macaco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD9B3BA6200562BE0088659F /* macaco.mp3 */; };
+		AD9B3BAE200562BE0088659F /* ovelha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD9B3BA7200562BE0088659F /* ovelha.mp3 */; };
+		AD9B3BAF200562BE0088659F /* thai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD9B3BA8200562BE0088659F /* thai.mp3 */; };
+		AD9B3BB0200562BE0088659F /* vaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD9B3BA9200562BE0088659F /* vaca.mp3 */; };
+		AD9B3BB3200640F20088659F /* SoundUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9B3BB2200640F20088659F /* SoundUtil.m */; };
+		AD9B3BB6200641D80088659F /* BixosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9B3BB5200641D80088659F /* BixosViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD9B3B72200560B70088659F /* Sons dos Bixos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sons dos Bixos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9B3B8D200561780088659F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD9B3B8F200561780088659F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD9B3B94200561780088659F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD9B3B95200561780088659F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD9B3B96200561780088659F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD9B3B99200561780088659F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD9B3B9B200561780088659F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD9B3BA3200562BE0088659F /* cao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cao.mp3; sourceTree = "<group>"; };
+		AD9B3BA4200562BE0088659F /* gato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gato.mp3; sourceTree = "<group>"; };
+		AD9B3BA5200562BE0088659F /* leao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = leao.mp3; sourceTree = "<group>"; };
+		AD9B3BA6200562BE0088659F /* macaco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = macaco.mp3; sourceTree = "<group>"; };
+		AD9B3BA7200562BE0088659F /* ovelha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ovelha.mp3; sourceTree = "<group>"; };
+		AD9B3BA8200562BE0088659F /* thai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thai.mp3; sourceTree = "<group>"; };
+		AD9B3BA9200562BE0088659F /* vaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vaca.mp3; sourceTree = "<group>"; };
+		AD9B3BB1200640F20088659F /* SoundUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundUtil.h; sourceTree = "<group>"; };
+		AD9B3BB2200640F20088659F /* SoundUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundUtil.m; sourceTree = "<group>"; };
+		AD9B3BB4200641D80088659F /* BixosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BixosViewController.h; sourceTree = "<group>"; };
+		AD9B3BB5200641D80088659F /* BixosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BixosViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD9B3B6F200560B70088659F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD9B3B69200560B70088659F = {
+			isa = PBXGroup;
+			children = (
+				AD9B3B74200560B70088659F /* Sons dos Bixos */,
+				AD9B3B73200560B70088659F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD9B3B73200560B70088659F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD9B3B72200560B70088659F /* Sons dos Bixos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD9B3B74200560B70088659F /* Sons dos Bixos */ = {
+			isa = PBXGroup;
+			children = (
+				AD9B3B8C200561780088659F /* Config */,
+				AD9B3B8E200561780088659F /* Resources */,
+				AD9B3B90200561780088659F /* Sources */,
+				AD9B3B97200561780088659F /* UI */,
+			);
+			path = "Sons dos Bixos";
+			sourceTree = "<group>";
+		};
+		AD9B3B8C200561780088659F /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				AD9B3B8D200561780088659F /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		AD9B3B8E200561780088659F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD9B3BA2200562BE0088659F /* sons */,
+				AD9B3B8F200561780088659F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AD9B3B90200561780088659F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AD9B3B91200561780088659F /* Categories */,
+				AD9B3B92200561780088659F /* Controllers */,
+				AD9B3B93200561780088659F /* MISC */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AD9B3B91200561780088659F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AD9B3BB1200640F20088659F /* SoundUtil.h */,
+				AD9B3BB2200640F20088659F /* SoundUtil.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		AD9B3B92200561780088659F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD9B3BB4200641D80088659F /* BixosViewController.h */,
+				AD9B3BB5200641D80088659F /* BixosViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AD9B3B93200561780088659F /* MISC */ = {
+			isa = PBXGroup;
+			children = (
+				AD9B3B94200561780088659F /* AppDelegate.h */,
+				AD9B3B95200561780088659F /* AppDelegate.m */,
+				AD9B3B96200561780088659F /* main.m */,
+			);
+			path = MISC;
+			sourceTree = "<group>";
+		};
+		AD9B3B97200561780088659F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AD9B3B98200561780088659F /* LaunchScreen.storyboard */,
+				AD9B3B9A200561780088659F /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AD9B3BA2200562BE0088659F /* sons */ = {
+			isa = PBXGroup;
+			children = (
+				AD9B3BA3200562BE0088659F /* cao.mp3 */,
+				AD9B3BA4200562BE0088659F /* gato.mp3 */,
+				AD9B3BA5200562BE0088659F /* leao.mp3 */,
+				AD9B3BA6200562BE0088659F /* macaco.mp3 */,
+				AD9B3BA7200562BE0088659F /* ovelha.mp3 */,
+				AD9B3BA8200562BE0088659F /* thai.mp3 */,
+				AD9B3BA9200562BE0088659F /* vaca.mp3 */,
+			);
+			path = sons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD9B3B71200560B70088659F /* Sons dos Bixos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9B3B89200560B70088659F /* Build configuration list for PBXNativeTarget "Sons dos Bixos" */;
+			buildPhases = (
+				AD9B3B6E200560B70088659F /* Sources */,
+				AD9B3B6F200560B70088659F /* Frameworks */,
+				AD9B3B70200560B70088659F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sons dos Bixos";
+			productName = "Sons dos Bixos";
+			productReference = AD9B3B72200560B70088659F /* Sons dos Bixos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD9B3B6A200560B70088659F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Cast Group";
+				TargetAttributes = {
+					AD9B3B71200560B70088659F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AD9B3B6D200560B70088659F /* Build configuration list for PBXProject "Sons dos Bixos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD9B3B69200560B70088659F;
+			productRefGroup = AD9B3B73200560B70088659F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD9B3B71200560B70088659F /* Sons dos Bixos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD9B3B70200560B70088659F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9B3BAC200562BE0088659F /* leao.mp3 in Resources */,
+				AD9B3BAE200562BE0088659F /* ovelha.mp3 in Resources */,
+				AD9B3BAA200562BE0088659F /* cao.mp3 in Resources */,
+				AD9B3BA0200561780088659F /* LaunchScreen.storyboard in Resources */,
+				AD9B3BB0200562BE0088659F /* vaca.mp3 in Resources */,
+				AD9B3B9D200561780088659F /* Assets.xcassets in Resources */,
+				AD9B3BAD200562BE0088659F /* macaco.mp3 in Resources */,
+				AD9B3BAF200562BE0088659F /* thai.mp3 in Resources */,
+				AD9B3B9C200561780088659F /* Info.plist in Resources */,
+				AD9B3BA1200561780088659F /* Main.storyboard in Resources */,
+				AD9B3BAB200562BE0088659F /* gato.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD9B3B6E200560B70088659F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9B3BB6200641D80088659F /* BixosViewController.m in Sources */,
+				AD9B3B9F200561780088659F /* main.m in Sources */,
+				AD9B3BB3200640F20088659F /* SoundUtil.m in Sources */,
+				AD9B3B9E200561780088659F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD9B3B98200561780088659F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD9B3B99200561780088659F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AD9B3B9A200561780088659F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD9B3B9B200561780088659F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD9B3B87200560B70088659F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD9B3B88200560B70088659F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD9B3B8A200560B70088659F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Sons dos Bixos/Config/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.castgroup.Sons-dos-Bixos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD9B3B8B200560B70088659F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Sons dos Bixos/Config/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.castgroup.Sons-dos-Bixos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD9B3B6D200560B70088659F /* Build configuration list for PBXProject "Sons dos Bixos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9B3B87200560B70088659F /* Debug */,
+				AD9B3B88200560B70088659F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9B3B89200560B70088659F /* Build configuration list for PBXNativeTarget "Sons dos Bixos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9B3B8A200560B70088659F /* Debug */,
+				AD9B3B8B200560B70088659F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD9B3B6A200560B70088659F /* Project object */;
+}
